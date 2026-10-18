@@ -69,4 +69,5 @@ If you don't have Synopsys VCS or Siemens Questa installed locally on your Windo
 
 Save the three files (`sim/run.py`, `sim/Makefile`, and `README.md`). 
 
-
+## Output Waveform 
+<img width="1919" height="766" alt="op waveform " src="https://github.com/user-attachments/assets/390e53f2-43c8-4a37-8643-a4e94407fd7e" />
