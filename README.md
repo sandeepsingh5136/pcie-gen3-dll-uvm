@@ -41,7 +41,7 @@ The verification environment exercises positive transactions and negative corner
 ## 🚀 How to Run Simulation
 
 ### Option 1: Automated Multi-Seed Regression 
-```bash
+bash
 cd sim
 python run.py
 
@@ -52,7 +52,7 @@ make run TESTNAME=pcie_test SEED=42
 make wave
 
 
-### Step 4: Testing on EDA Playground (Zero-Install Path)
+###  Testing on EDA Playground (Zero-Install Path)
 
 If you don't have Synopsys VCS or Siemens Questa installed locally on your Windows machine:
 1. Open [EDA Playground](https://www.edaplayground.com).
@@ -65,3 +65,9 @@ If you don't have Synopsys VCS or Siemens Questa installed locally on your Windo
 5. Click **Run**. The console will compile the code, start the UVM sequence, output the scoreboard summary report, and open the interactive waveform viewer.
 
 Save the three files (`sim/run.py`, `sim/Makefile`, and `README.md`). 
+
+## 📊 Simulation Waveform
+
+Below is the EPWave simulation trace showing 5 back-to-back TLP packet transmissions, LCRC calculation, framing (`sop`/`eop`), and automatic ACK feedback:
+
+![PCIe DLL Simulation Waveform](docs/waveform.png)
