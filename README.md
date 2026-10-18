@@ -41,14 +41,14 @@ The verification environment exercises positive transactions and negative corner
 ## 🚀 How to Run Simulation
 
 ### Option 1: Automated Multi-Seed Regression 
-bash
-cd sim
+bash,
+cd sim,
 python run.py
 
 ### Option 2 
-cd sim
-make compile
-make run TESTNAME=pcie_test SEED=42
+cd sim,
+make compile,
+make run TESTNAME=pcie_test SEED=42,
 make wave
 
 
