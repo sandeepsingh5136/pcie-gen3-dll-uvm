@@ -42,16 +42,17 @@ The verification environment exercises positive transactions and negative corner
 
 ### Option 1: Automated Multi-Seed Regression 
 ```bash
-option 1
+
 cd sim
 python run.py
 ```
-### Option 2 
+### Option 2
+```bash
 cd sim
 make compile
 make run TESTNAME=pcie_test SEED=42
 make wave
-
+```
 
 
 ##  Testing on EDA Playground (Zero-Install Path)
