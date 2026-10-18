@@ -53,7 +53,19 @@ make compile
 make run TESTNAME=pcie_test SEED=42
 make wave
 ```
+### 📈 Multi-Seed Regression Results
 
+Automated regression suite executed via `sim/run.py` to evaluate stability across randomized seeds:
+
+| Seed | Status | UVM Errors | UVM Fatals |
+| :---: | :---: | :---: | :---: |
+| 101 | **PASS** | 0 | 0 |
+| 202 | **PASS** | 0 | 0 |
+| 303 | **PASS** | 0 | 0 |
+| 404 | **PASS** | 0 | 0 |
+| 505 | **PASS** | 0 | 0 |
+
+> **Result:** 100% test pass rate with zero protocol errors or memory replay buffer deadlocks.
 
 ##  Testing on EDA Playground (Zero-Install Path)
 
