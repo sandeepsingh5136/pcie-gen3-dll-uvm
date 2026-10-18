@@ -41,7 +41,7 @@ The verification environment exercises positive transactions and negative corner
 ## 🚀 How to Run Simulation
 
 ### Option 1: Automated Multi-Seed Regression 
-bash,
+```bash,
 cd sim,
 python run.py
 
